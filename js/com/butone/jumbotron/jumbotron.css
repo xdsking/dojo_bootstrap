@@ -1,0 +1,20 @@
+.jumbotron .cstm-jumbotron {
+    padding: 0;
+    color: #003478;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+    background: #fff; /* Old browsers */
+    margin-left: 20px;
+    background-image: url(images/back.png);
+    border-image-repeat: repeat;
+}
+
+.jumbotron .cstm-jumbotron h1 {
+    font-weight: 700;
+}
+
+.jumbotron .cstm-jumbotron p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+}

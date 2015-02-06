@@ -1,0 +1,11 @@
+#ScheduleLabel{
+    font-size: 20px;
+    font-weight: bold;
+    color: #003478;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+    background: #fff;
+}
+.cstm-modal-body{
+    color: #003478;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+}

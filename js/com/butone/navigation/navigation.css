@@ -1,0 +1,91 @@
+.navigation {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.navigation ul {
+    margin: 0;
+    font-family: Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline;
+}
+
+.navigation li a {
+    margin: 0 1px;
+    padding: 7px 15px;
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5em;
+    min-width: 62px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: -0.0035em;
+    background-color: #5BAED5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 176, 216)), to(rgb(0, 136, 196)));
+    background-image: -webkit-linear-gradient(top, rgb(0, 176, 216), rgb(0, 136, 196));
+    background-image: -moz-linear-gradient(top, rgb(0, 176, 216), rgb(0, 136, 196));
+    background-image: -o-linear-gradient(top, rgb(0, 176, 216), rgb(0, 136, 196));
+    background-image: -ms-linear-gradient(top, rgb(0, 176, 216), rgb(0, 136, 196));
+    background-image: linear-gradient(top, rgb(0, 176, 216), rgb(0, 136, 196));
+    border-top: 1px solid #64D0E7;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+}
+
+.navigation .home a {
+    padding-bottom: 6px;
+}
+
+.dj_ie7 #header li a {
+    height: 21px;
+}
+
+.navigation li.active a {
+    font-weight: bold;
+    border-bottom: 3px solid #0099CC;
+}
+
+.homeIcon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+}
+
+.navigation ul .homeIcon,
+.homePage .navigation ul .homeIcon {
+    background: url(images/homeIcon.png) no-repeat 0 -15px;
+}
+
+.navigation a:hover {
+    color: #66FFFF;
+}
+
+.navigation ul .homeIcon {
+    background-position: 0 0
+}
+
+.homePage .navigation ul .home a,
+.demosPage .navigation ul .demos a,
+.downloadPage .navigation ul .download a,
+.featuresPage .navigation ul .features a,
+.communityPage .navigation ul .community a,
+.blogPage .navigation ul .blog a,
+.examplesPage .navigation ul .examples a,
+.docPage .navigation ul .docs a {
+    background: #FFF;
+    color: #656565;
+    text-shadow: none;
+    border-color: #FFF;
+}

@@ -1,0 +1,73 @@
+<div class="${baseClass}">
+    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#addSchedulePanel">添加课程
+    </button>
+    <div class="modal fade" id="addSchedulePanel" tabindex="-1" role="dialog" aria-labelledby="ScheduleLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="ScheduleLabel">添加课程</h4>
+                </div>
+                <div class="modal-body cstm-modal-body">
+                    <form class="form-horizontal" data-dojo-attach-point="dataForm" id="dataForm" role="form">
+                        <div class="form-group">
+                            <label for="className" class="col-sm-2 control-label">上课教室</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" name="className" class="form-control" id="className">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="scheduleName" class="col-sm-2 control-label">课程名称</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" name="scheduleName" class="form-control" id="scheduleName">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="scheduleIntroduce" class="col-sm-2 control-label">课程介绍</label>
+
+                            <div class="col-sm-10">
+                                <textarea class="form-control" name="scheduleIntroduce" id="scheduleIntroduce"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="scheduleStartTime" class="col-sm-2 control-label">上课时间</label>
+
+                            <div class="col-sm-10">
+                                <input type="date" class="form-control" name="scheduleStartTime" id="scheduleStartTime">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="scheduleEndTime" class="col-sm-2 control-label">下课时间</label>
+
+                            <div class="col-sm-10">
+                                <input type="date" class="form-control" name="scheduleEndTime" id="scheduleEndTime">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="teacherName" class="col-sm-2 control-label">老师姓名</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="teacherName" id="teacherName">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="teacherIntroduce" class="col-sm-2 control-label">老师介绍</label>
+
+                            <div class="col-sm-10">
+                                <textarea class="form-control" name="teacherIntroduce" id="teacherIntroduce"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" data-dojo-attach-point="submit">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
